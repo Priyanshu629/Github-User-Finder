@@ -1,0 +1,100 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+html,body{
+width: 100%;
+height: 100vh;
+}
+#msg{
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+  color: red;
+  display: none;
+  margin: 10px;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  background-color: aliceblue;
+  
+}
+.container h1{
+  background-color: aqua;
+  padding: 10px;
+}
+
+.input-container{
+  padding: 10px;
+  margin: 10px;
+}
+.input-container input{
+  margin: 5px;
+  padding: 10px;
+  width: 250px;
+  font-size: 18px;
+  border: 1px solid;
+}
+.input-container button{
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: rgb(218, 32, 128);
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+#card{
+  width: 300px;
+  border: 1px solid;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+  display:none;
+  background-color: aquamarine
+  
+}
+
+ #img{
+  width: 200px;
+  height: 200px;
+  margin: auto auto;
+  border-radius: 10px;
+}
+.card h2,h3,i,p{
+  margin: 5px;
+}
+.card p{
+  font-style: italic;
+}
+.info span{
+  margin: 5px;
+  color: blueviolet;
+  font-weight: bold;
+}
+.info{
+  margin-bottom: 15px;
+}
+
+.show{
+  text-decoration: none;
+  padding: 10px;
+  /* margin-top: 20px; */
+  background-color: rgb(220, 255, 47);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+}
+.show:hover{
+  background-color: blueviolet;
+  color: white;
+}
+
+
