@@ -33,6 +33,7 @@ const App = () => {
       } else {
         setuserInfo(data);
         document.getElementById("card").style.display = "block";
+        document.getElementById('msg').style.display='none'
       }
     }
   };
